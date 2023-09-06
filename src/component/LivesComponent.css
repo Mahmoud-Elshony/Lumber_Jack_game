@@ -1,0 +1,42 @@
+
+
+/* GameComponent.css */
+
+.game-container {
+    position: fixed;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #35353500; /* لون خلفية الشكل */
+  }
+  
+  .lives {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heart-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .heart {
+    font-size: 24px;
+    color: red; /* لون القلب */
+    margin-right: 4px; /* تباعد بين القلوب */
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  

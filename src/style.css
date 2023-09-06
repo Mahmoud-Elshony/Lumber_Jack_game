@@ -1,0 +1,129 @@
+body {
+  /* background-color: #00ca28; */
+  /* width: 100dvh !important;
+  height: 100dvh !important; */
+  display: flex !important;
+  /* align-items: center !important; */
+  justify-content: center !important;
+  margin: 0;
+  padding: 0;
+  touch-action: none;
+  overflow: hidden;
+  background-color: #555;
+}
+.tree {
+  width: 80px;
+  height: 100dvh;
+  z-index: -2;
+  position: relative;
+  background: rgb(201, 77, 77);
+  border-right: 10px solid;
+  border-left: 10px solid;
+  /* display: flex;
+  flex-direction: column-reverse; */
+}
+.game__foreground {
+  /* top:-60px; */
+  background-repeat: no-repeat;
+  content: "";
+  height: 13%;
+  left: 54px;
+  position: relative;
+  width: 28rem;
+  background-image: radial-gradient(closest-side, #eacf09 100%, transparent 1%),
+    radial-gradient(closest-side, #00ca28 70%, transparent 93%),
+    radial-gradient(closest-side, #00ca28 70%, transparent 93%),
+    radial-gradient(closest-side, #00ca28 70%, transparent 93%),
+    radial-gradient(closest-side, #00ca28 70%, transparent 98%),
+    radial-gradient(closest-side, black 100%, transparent 0%),
+    radial-gradient(closest-side, black 100%, transparent 0%),
+    radial-gradient(closest-side, black 100%, transparent 0%),
+    radial-gradient(closest-side, black 100%, transparent 0%),
+    radial-gradient(closest-side, black 100%, transparent 0%);
+  background-position: 14.5rem 4rem, 16rem 4rem, 16rem 1rem, 12rem 1rem,
+    11rem 4rem;
+  background-size: 1.8rem 1.8rem, 5rem 5rem, 5rem 5rem, 8rem 8rem, 5rem 5rem;
+  /* transform: scaleX(-1); */
+}
+
+.branch {
+  position: relative;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  top: 139px;
+  left: 26px;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background: linear-gradient(
+    to right,
+    rgb(201, 77, 77) 97.5%,
+    transparent 1.8rem
+  );
+}
+.rec {
+  width: 200px;
+  height: 20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom: 10px solid;
+  border-right: 10px solid;
+  border-left: 10px solid;
+  background-color: #555;
+}
+.branch > div:nth-child(2) {
+  border-left: none;
+  width: 210px;
+  position: relative;
+  /* top: 0; */
+  /* height: 20px; */
+  /* left: 0px; */
+  transform: rotate(180deg);
+  border-bottom-left-radius: 0;
+}
+
+.circle {
+  z-index: -1;
+  width: 100px;
+  height: 49px;
+  background-color: rgb(201, 77, 77);
+  border-bottom-right-radius: 40px;
+  border-bottom: 10px solid black;
+  position: absolute;
+  left: 143px;
+  bottom: 20px;
+  border-right: 10px solid;
+}
+.left {
+  transform: scaleX(-1);
+  left: -422px;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* تأثير التخفي التدريجي يستغرق 1 ثانية */
+}
+
+.right-section-click {
+  /* background-color: #666; */
+  width: 50%;
+  height: 100%;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 50%;
+  z-index: 555;
+  position: absolute;
+}
+.left-section-click {
+  /* background-color: #111; */
+  width: 50%;
+
+  height: 100%;
+  top:0;
+  left:0;
+  bottom: 0;
+  z-index: 555;
+  position: absolute;
+}
