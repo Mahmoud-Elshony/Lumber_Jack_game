@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Lumber_Jack_game/static/css/main.b927f540.css",
+    "main.js": "/Lumber_Jack_game/static/js/main.948ef33c.js",
+    "static/media/collision.mp3": "/Lumber_Jack_game/static/media/collision.be7bf355b4f427a248c2.mp3",
+    "static/media/hitting.mp3": "/Lumber_Jack_game/static/media/hitting.d48149f5f8fcc642ceba.mp3",
+    "index.html": "/Lumber_Jack_game/index.html",
+    "main.b927f540.css.map": "/Lumber_Jack_game/static/css/main.b927f540.css.map",
+    "main.948ef33c.js.map": "/Lumber_Jack_game/static/js/main.948ef33c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b927f540.css",
+    "static/js/main.948ef33c.js"
+  ]
+}
